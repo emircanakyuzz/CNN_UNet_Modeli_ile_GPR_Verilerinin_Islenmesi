@@ -46,3 +46,5 @@ Bu katman ile birlikte modelimiizn öğrenme süreci başlıyor.
 
 ## - Sonuç Olarak:
 CNN algoritmasının görüntü işlenmesinde daha iyi bir performans sergilediğini belirtebiliriz. Ayrıca UNet mimarisinin sağlık alanındaki medikal görüntülerin işlenmesinde de kullanıldığını belirtmekte fayda var..
+
+### - Çalışmayı okuldan arkadaşım ile geliştirdiğimizi ve %100 bana ait bir proje olmadığını belirtmeliyim. Çalışmamızın kodlarının ana çıkış noktasını ve gerçekleştirmek istediğimiz çalışmanın detaylı makalesini [buraya tıklayarak](https://haihan-sun.github.io/GPR/ "buraya tıklayarak") edinebilirsiniz.
