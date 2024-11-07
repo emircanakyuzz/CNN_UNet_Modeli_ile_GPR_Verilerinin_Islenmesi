@@ -9,11 +9,11 @@ Convolutional (evrişim katmanı) CNN algoritmalarında görüntüyü ele alan i
 
 Görüntü üzerinde gezdirilen örnek filtre
 
-<img src="0_22gC7SkrSSDqUt7I.webp" alt="Konvulasyon İşlemi için Kullanılan Örnek Filtre">
+<img src="images/0_22gC7SkrSSDqUt7I.webp" alt="Konvulasyon İşlemi için Kullanılan Örnek Filtre">
 
 ve örnek görüntü
 
-<img src="0_SmFIvE152CqA__Im.webp" alt="Konvulasyon İşlemi için Kullanılan Örnek Görüntü">
+<img src="images/0_SmFIvE152CqA__Im.webp" alt="Konvulasyon İşlemi için Kullanılan Örnek Görüntü">
 
 ve konvulasyon işlemi..
 
@@ -24,24 +24,24 @@ Derin öğrenme modellerinde aktivasyon fonksiyonları sıkça kullanılmaktadı
 
 ReLu Aktivasyon Fonksiyonu Grafiği
 
-<img src="relu.png.webp" alt="ReLu Aktivasyon Fonksiyonu">
+<img src="images/relu.png.webp" alt="ReLu Aktivasyon Fonksiyonu">
 Modelimizin negatif değerleri öğrenmesini ya da bazı özellikleri bu negatif değerlerden dolayı kavrayamamasının önüne geçmek için ReLU, tanh ve sigmoid gibi doğrusal olmayan fonksiyonlar kullanılır.
 
 #### - Havuzlama Katmanı
 Evrişimli katman gibi pooling (havuzlama) katmanı da boyutsallığı azaltma amacındadır. Bu sayede hem gereken işlem gücü azalır hem de yakalanan gereksiz özellikler yok sayılarak daha önemli özelliklere odaklanılır.
 
-<img src="0_76WGD-RQzSCT7okl.webp" alt="Havuzlama İşlemi">
+<img src="images/0_76WGD-RQzSCT7okl.webp" alt="Havuzlama İşlemi">
 Bu katman sayesinde boyut azalır ve önemli özellikler elimizde kalmış olur.
 
 #### - Flattening Katmanı
 Bu katmanın görevi basitçe, son ve en önemli katman olan Fully Connected Layer’ın girişindeki verileri hazırlamaktır. Genel olarak, sinir ağları, giriş verilerini tek boyutlu bir diziden alır. Bu sinir ağındaki veriler ise Convolutional ve Pooling katmanından gelen matrixlerin tek boyutlu diziye çevrilmiş halidir.
 
-<img src="0_mUxIJt1aTq3slUSO.webp" alt="Flattening İşlemi">
+<img src="images/0_mUxIJt1aTq3slUSO.webp" alt="Flattening İşlemi">
 
 #### - Tam Bağlantı Katmanı
 Girdi resmimizi sinir ağları ile eğitebileceğimiz kıvama getirdikten sonra geriye sadece klasik sinir ağlarındaki çalışma mantığı kalıyor. Yine katmanlardaki nodelarda (düğüm) özellikler tutuluyor ve weight (ağırlık) ve bias değiştirilerek öğrenme sürecine giriliyor.
 
-<img src="fully_connected.png.webp" alt="Tam Bağlantı Katmanı Temsili Görseli">
+<img src="images/fully_connected.png.webp" alt="Tam Bağlantı Katmanı Temsili Görseli">
 Bu katman ile birlikte modelimiizn öğrenme süreci başlıyor.
 
 ## - Sonuç Olarak:
